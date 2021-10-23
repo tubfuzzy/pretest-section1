@@ -1,0 +1,1 @@
+ne reason might be you are add event listener again. every time you create dialog while old event listener still working can be solved by adding event listener to close button instead.

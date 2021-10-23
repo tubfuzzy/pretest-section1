@@ -1,0 +1,18 @@
+.parent {
+    position: relative;
+    /* try changing the width! */
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  
+  .star {
+    position: absolute;
+    /* Only allow to add content inside this block */
+    margin: auto;
+    /* border: solid; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* */
+  }
